@@ -1,0 +1,186 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;login-with-valid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Login with Valid Credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3061239699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Load the url",
+            "match": {
+              "location": "tests\\login.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2441667800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Enter the Credentials as \"demoCSR\" and \"crmsfa\"",
+            "match": {
+              "location": "tests\\login.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 516155199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "tests\\login.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 436361500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "tests\\login.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 342035900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4287400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-with-valid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Login with Valid Credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2261048000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Load the url",
+            "match": {
+              "location": "tests\\login.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2001641699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Enter the Credentials as \"demoSalesManager\" and \"crmsfa\"",
+            "match": {
+              "location": "tests\\login.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 413749499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "tests\\login.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1337229300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "tests\\login.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55038000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9813700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login Functionality",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "uri": "features\\login.feature"
+  }
+]
